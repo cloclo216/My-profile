@@ -1,0 +1,111 @@
+/* Colors and fonts */
+body{
+background-image: url(images/bois.png);
+color: black ;
+font-family: 'Avenir', sans serif ;
+font-size : 17px;
+letter-spacing: 1px;
+font-weight: lighter;
+}
+
+h1 {
+	color: #463333;
+	font-family: 'Tahoma' , serif;
+	letter-spacing: 2px;
+	
+
+
+}
+
+ h2 {
+font-family: 'Tahoma',  serif ;
+font-size: 27px;
+letter-spacing: 1px;
+color: #625261 ;
+
+}
+
+a {
+   text-decoration: none;
+   color :#625 ;
+   font-weight: bold;
+   text-align: center;
+
+}
+a:hover {
+  color : black;
+  
+}
+
+.list-inline li	{
+  display: inline;
+  padding: 60px;
+
+
+
+
+}
+
+/* Custom design with class */
+.container{
+
+
+
+
+
+
+}
+
+.card-white{
+background-color: #fbf7f0;
+border-radius:7px;
+box-shadow: 0px 10px 30px rgba(1,1,1,0.2);
+margin: 30px;
+text-align:center;
+width: 850px;
+margin-left: 270px;
+justify-content: space-between;
+padding: 20px;
+padding-top: 2px;
+
+
+
+
+
+
+}
+
+.img-circle	{ 
+
+border-radius: 30%;
+
+ }
+
+
+@media (max-width: 960px) {           
+.Divprincipale	{  
+width: 700px;
+ }
+ }
+
+
+ @media (max-width: 720px) {           
+.Divprincipale	{  
+width: 600px;
+ }
+ }
+
+
+@media (max-width: 540px) {           
+.Divprincipale	{  
+width: 400px;
+ }
+ }
+
+
+
+
+
+
+
+
